@@ -59,12 +59,10 @@
         <color rgba="1 1 1 1"/>
       </material>
     </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
-      <geometry>
-        <mesh filename="package://mentorpi_description/meshes/mecanum/wheel_lf_Link.STL"/>
-      </geometry>
-    </collision>
+<collision>
+  <origin rpy="1.5708 0 0" xyz="0 -0.0074 0"/>
+  <geometry><cylinder radius="0.0325" length="0.0344"/></geometry>
+</collision>
   </link>
   <joint name="wheel_lf_Joint" type="continuous">
     <origin rpy="0 0 0" xyz="0.067052 0.07591 -0.018408"/>
@@ -87,12 +85,10 @@
         <color rgba="1 1 1 1"/>
       </material>
     </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
-      <geometry>
-        <mesh filename="package://mentorpi_description/meshes/mecanum/wheel_rf_Link.STL"/>
-      </geometry>
-    </collision>
+<collision>
+  <origin rpy="0 0 0" xyz="0.0029 0 0.0113"/>
+  <geometry><box size="0.2119 0.1 0.0924"/></geometry>
+</collision>
   </link>
   <joint name="wheel_rf_Joint" type="continuous">
     <origin rpy="0 0 0" xyz="0.067052 -0.07591 -0.018408"/>
@@ -115,12 +111,10 @@
         <color rgba="1 1 1 1"/>
       </material>
     </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
-      <geometry>
-        <mesh filename="package://mentorpi_description/meshes/mecanum/wheel_lb_Link.STL"/>
-      </geometry>
-    </collision>
+<collision>
+  <origin rpy="0 0 0" xyz="0.0029 0 0.0113"/>
+  <geometry><box size="0.2119 0.1 0.0924"/></geometry>
+</collision>
   </link>
   <joint name="wheel_lb_Joint" type="continuous">
     <origin rpy="0 0 0" xyz="-0.06764 0.07591 -0.018414"/>
@@ -143,12 +137,10 @@
         <color rgba="1 1 1 1"/>
       </material>
     </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
-      <geometry>
-        <mesh filename="package://mentorpi_description/meshes/mecanum/wheel_rb_Link.STL"/>
-      </geometry>
-    </collision>
+<collision>
+  <origin rpy="0 0 0" xyz="0.0029 0 0.0113"/>
+  <geometry><box size="0.2119 0.1 0.0924"/></geometry>
+</collision>
   </link>
   <joint name="wheel_rb_Joint" type="continuous">
     <origin rpy="0 0 0" xyz="-0.067621 -0.07591 -0.018408"/>
@@ -171,12 +163,10 @@
         <color rgba="1 1 1 1"/>
       </material>
     </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
-      <geometry>
-        <mesh filename="package://mentorpi_description/meshes/mecanum/cam_Link.STL"/>
-      </geometry>
-    </collision>
+<collision>
+  <origin rpy="0 0 0" xyz="0.0029 0 0.0113"/>
+  <geometry><box size="0.2119 0.1 0.0924"/></geometry>
+</collision>
   </link>
   <joint name="cam_Joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.061376 -0.00013463 0.051154"/>
@@ -199,12 +189,10 @@
         <color rgba="1 1 1 1"/>
       </material>
     </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
-      <geometry>
-        <mesh filename="package://mentorpi_description/meshes/mecanum/lidar_Link.STL"/>
-      </geometry>
-    </collision>
+<collision>
+  <origin rpy="0 0 0" xyz="0.0029 0 0.0113"/>
+  <geometry><box size="0.2119 0.1 0.0924"/></geometry>
+</collision>
   </link>
   <joint name="lidar_Joint" type="fixed">
     <origin rpy="0 0 0" xyz="-0.012242 -8.533E-05 0.092501"/>
