@@ -1,7 +1,7 @@
    # MentorPi Simulation
  
    **Course:** RAS 212, Introduction to ROS 2, Kansas State University Salina
-   **Author:** Mathew Schutz
+   **Author:** HitWonder
  
    ## Description
  
