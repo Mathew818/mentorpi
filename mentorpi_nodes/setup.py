@@ -26,6 +26,7 @@ setup(
         'console_scripts': [
             'safety_gate = mentorpi_nodes.safety_gate:main',
             'stop_client = mentorpi_nodes.stop_client:main',
+            'drive_distance = mentorpi_nodes.drive_distance:main',
         ],
     },
 )
